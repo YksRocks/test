@@ -165,7 +165,7 @@ export function ChatWindow(props: {
 
   const choosePDFComponent = (
     <>
-      <div className={`fisrtPage p-4 md:p-3   rounded-2xl   w-full max-h-[90%] overflow-hidden flex flex-col text-white bccc`}>
+      <div className={`fisrtPage p-4 md:p-3   rounded-2xl   w-full max-h-[100%] overflow-hidden flex flex-col text-white bccc`}>
         <div className={`startPage absolute top-0 right-0 left-0 bottom-0 w-[100vw] h-[100vh] bg-[#222831]  z-10 flex flex-col justify-center items-center  ${buttonClicked ? 'bc' : ''}`}>
           
           <h1 className='text-5xl  text-white font-bold w-[50%] text-center'>PDF pedia</h1>
