@@ -77,7 +77,7 @@ export function ChatMessageBubble(props: { message: ChatWindowMessage, aiEmoji?:
   }
   return (
     <div
-      className={`${alignmentClassName} ${colorClassName} rounded px-4 py-2 max-w-[80%] mb-8 flex flex-col`}
+      className={`${alignmentClassName} ${colorClassName} rounded-lg bg-[#00ADB5] px-4 py-2 max-w-[80%] mb-8 flex flex-col`}
     >
       <div className="flex">
         <div className="mr-2">
